@@ -1,0 +1,8 @@
+<h3>Charts</h3>
+<div class="grid grid-pad">
+  <div *ngFor="let chart of charts" (click)="gotoDetail(chart)" class="col-1-4">
+    <div>
+      <h4>{{chart.name}}</h4>
+    </div>
+  </div>
+</div>
